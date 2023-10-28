@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap css-->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--custom css-->
+    <link href="css/css_page/style.css" rel="stylesheet">
+    <link href="css/css_page/contactus.css" rel="stylesheet">
+    <link href="css/css_page/checkout.css" rel="stylesheet">
+    <title>ABC SHOPPING MALL</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ABC SHOPPING MALL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login_signup.html">Login & Signup</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./product_page.html">Product A</a></li>
+                  <!--<li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>--->
+                </ul>
+              </li>
+              
+              <button type = "button" class ="btn position-relative">
+                <a href="./checkout.html">
+                  <i class="fa fa-shopping-cart" style="color: black;"></i>
+                  <div class = "cart-quantity js-cart-quantity">0</div>
+                </a>
+              </button>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!---Navbar of end-->
+
+<!--Contact Us-->
+<form>
+<div class="contact container">
+  <div class="row">
+    <div class="col-md-7">
+      <h4>Get in touch</h4>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Email</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your phone number">
+      </div>
+      <div class="mb-3">
+        <label for="exampleForControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button class="btn btn-primary">Submit</button>
+    </div>
+    <div class="col-md-5">
+      <h4>Contact us</h4><hr>
+      <div class="mt-4">
+        <div class="d-flex">
+          <i class="bi bi-geo-alt-fill"></i>
+          <p>Address: Ho Man Tin, Kowloon </p>
+        </div><hr>
+        <div class="d-flex">
+          <i class="bi bi-telephone-fill"></i>
+          <p>Contact: +852 12345678</p>
+        </div><hr>
+        <div class="d-flex">
+          <i class="bi bi-envelope-fill"></i>
+          <p>Email: abc@gmail.com</p>
+        </div><hr>
+        <div class="maps container">
+          <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3805.21606285166!2d114.17444057179493!3d22.321140590084102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2shk!4v1698471560475!5m2!1szh-TW!2shk" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+
+<!--end of Contact Us-->
+
+<!--footer-->
+<footer>
+  <div class="text-center">
+  <p> Design by Roy Mo, e-commerce template</p>
+  </div>
+</footer>
+<!--end of footer-->
+
+
+
+
+
+
+<!--jquery-->
+<script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+<!--isotope js-->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!--bootstrap js-->
+
+<!--custom js-->
+<script src="./js/style.js"></script>
+  </body>
+</html>
